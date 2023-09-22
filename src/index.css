@@ -28,6 +28,14 @@ body {
     rgba(152, 115, 255, 0.1) 100%
   );
 }
+.bg {
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+}
 nav ul a.active {
   background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
   background-clip: text;
@@ -41,4 +49,5 @@ p {
   color: #757575;
   font-size: 20px;
   font-weight: 600;
+
 }

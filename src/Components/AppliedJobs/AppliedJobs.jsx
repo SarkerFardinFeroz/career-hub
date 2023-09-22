@@ -35,8 +35,8 @@ const AppliedJobs = () => {
     <div className="container mx-auto my-32">
       <div className="flex justify-end">
         <details className="dropdown mb-8">
-          <summary className="m-1 btn">Filter By</summary>
-          <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+          <summary className="m-1 btn text-[#474747] text-xl font-semibold capitalize">Filter By</summary>
+          <ul className="p-2  shadow menu dropdown-content z-[1] bg-base-200 text-[#757575] text-base rounded-box w-52">
             <li onClick={() => handleJobsFilter("All")}>
               <a>All</a>
             </li>
